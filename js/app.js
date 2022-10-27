@@ -66,6 +66,7 @@ function checkItem(checkId){
     listItem = parent.querySelector("a")
     if(element.checked == true){
         listItem.style.textDecoration="line-through"
+        allList.appendChild(parent)
     }else{
         listItem.style.textDecoration="none"
     }
